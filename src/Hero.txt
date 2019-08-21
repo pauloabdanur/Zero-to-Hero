@@ -1,0 +1,9 @@
+Smart Copy & Paste
+
+Typescript
+
+Formik
+
+Relay
+
+FullStack Dev - in Progress

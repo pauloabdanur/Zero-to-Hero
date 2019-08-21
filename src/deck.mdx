@@ -1,0 +1,191 @@
+import { Head, Image } from 'mdx-deck'
+import Code from 'mdx-code';
+import { CodeSurfer } from "mdx-deck-code-surfer";
+
+import { Cover } from './Cover';
+import { ToDoList } from './ToDoList';
+import { NextStep } from './NextStep';
+import { Figma } from './Figma';
+import { Structure } from './Structure';
+import { Feed } from './Feed';
+import { BigStep } from './BigStep';
+import { CharmLogin } from './CharmLogin';
+import { CharmProfile } from './CharmProfile';
+import { CharmProfileTypes } from './CharmProfileTypes';
+import { CharmProfileWithFormik } from './CharmProfileWithFormik';
+import { CharmProfileHandleSubmit } from './CharmProfileHandleSubmit';
+import { CharmProfileFragmentContainer } from './CharmProfileFragmentContainer';
+import { CharmProfileQueryRenderer } from './CharmProfileQueryRenderer';
+import { Contribution } from './Contribution';
+import { Thanks } from './Thanks';
+
+export { default as theme } from './theme'
+
+<Head>
+  <title>From Zero to Hero</title>
+</Head>
+
+<Cover />
+
+---
+<div style={{fontSize: 28}}>
+<CodeSurfer
+  title="const Zero = ?"
+  code={require('!raw-loader!./Zero.txt')}
+  showNumbers={false}
+  dark={true}
+  lang="bash"
+  steps={[
+    { range: [1, 1], notes: 'Porrrta'},
+    { range: [3, 3], notes: '2017 - UNICENTRO'},
+    { range: [5, 5], notes: 'SQL - Infra'},
+  ]}
+/>
+</div>
+
+---
+<div style={{fontSize: 28}}>
+<CodeSurfer
+  title="First Impressions"
+  code={require('!raw-loader!./FirstImpressions.txt')}
+  showNumbers={false}
+  dark={true}
+  lang="bash"
+  steps={[
+    { range: [1, 1], notes: 'Gambiarras FTW'},
+    { range: [3, 3], notes: 'yarn é sua mãe'},
+    { range: [5, 5], notes: "and that's it"},
+  ]}
+/>
+</div>
+
+---
+<div style={{fontSize: 26}}>
+<CodeSurfer
+  title="First Code - App.js"
+  code={require('!raw-loader!./FirstCode.js')}
+  showNumbers={false}
+  dark={true}
+  lang="javascript"
+  steps={[
+    { range: [1, 4], notes: 'Imports'},
+    { range: [13, 21], notes: 'Functions'},
+    { range: [51, 69], notes: 'Header'},
+    { range: [70, 86], notes: 'List'},
+  ]}
+/>
+</div>
+
+---
+
+<ToDoList />
+
+---
+
+<NextStep />
+
+---
+
+<Figma />
+
+---
+
+<Structure />
+
+---
+
+<div style={{fontSize: 26}}>
+<CodeSurfer
+  title="Login.js"
+  code={require('!raw-loader!./LoginScreen.js')}
+  showNumbers={false}
+  dark={true}
+  lang="javascript"
+  steps={[
+    { range: [1, 8], notes: 'Imports'},
+    { range: [64, 79], notes: 'submitHandler'},
+    { range: [81, 90], notes: 'Fetch'},
+    { range: [92, 98], notes: 'Validation'},
+  ]}
+/>
+</div>
+
+---
+
+<Feed />
+
+---
+
+<BigStep />
+
+---
+
+<CharmLogin />
+
+---
+
+<CharmProfile />
+
+---
+
+<CharmProfileTypes />
+
+---
+
+<CharmProfileWithFormik />
+
+---
+
+<CharmProfileHandleSubmit />
+
+---
+
+<CharmProfileFragmentContainer />
+
+---
+
+<CharmProfileQueryRenderer />
+
+---
+
+<div style={{fontSize: 28}}>
+<CodeSurfer
+  title="Other Features"
+  code={require('!raw-loader!./Features.txt')}
+  showNumbers={false}
+  dark={true}
+  lang="bash"
+  steps={[
+    { range: [1, 1], notes: 'react-native-share & react-native-view-shot' },
+    { range: [3, 3], notes: 'react-native-camera' },
+    { range: [5, 5], notes: 'react-native-qrcode-svg' },
+  ]}
+/>
+</div>
+
+---
+
+<Contribution />
+
+---
+
+<div style={{fontSize: 28}}>
+<CodeSurfer
+  title="const Hero = ?"
+  code={require('!raw-loader!./Hero.txt')}
+  showNumbers={false}
+  dark={true}
+  lang="bash"
+  steps={[
+    { range: [1, 1], notes: 'Best skill learned so far'},
+    { range: [3, 3]},
+    { range: [5, 5]},
+    { range: [7, 7]},
+    { range: [9, 9], notes: 'Loading...'},
+  ]}
+/>
+</div>
+
+---
+
+<Thanks />
