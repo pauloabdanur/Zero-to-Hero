@@ -27,7 +27,7 @@ const GitHubUrl = styled.span`
 `;
 
 const GitHubImage = styled.img`
-  max-width: 300px;
+  max-width: 280px;
 `;
 
 export const CharmLogin = () => (

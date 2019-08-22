@@ -1,0 +1,9 @@
+Learn to read errors
+
+Don't commit node_modules
+
+Spend time to earn time 
+
+Be Passionate
+
+Practice!

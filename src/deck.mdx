@@ -53,7 +53,7 @@ export { default as theme } from './theme'
   lang="bash"
   steps={[
     { range: [1, 1], notes: 'Gambiarras FTW'},
-    { range: [3, 3], notes: 'yarn é sua mãe'},
+    { range: [3, 3], notes: 'yarn >>>>'},
     { range: [5, 5], notes: "and that's it"},
   ]}
 />
@@ -171,7 +171,7 @@ export { default as theme } from './theme'
 
 <div style={{fontSize: 28}}>
 <CodeSurfer
-  title="const Hero = ?"
+  title="Hero? "
   code={require('!raw-loader!./Hero.txt')}
   showNumbers={false}
   dark={true}
@@ -182,6 +182,25 @@ export { default as theme } from './theme'
     { range: [5, 5]},
     { range: [7, 7]},
     { range: [9, 9], notes: 'Loading...'},
+  ]}
+/>
+</div>
+
+---
+
+<div style={{fontSize: 28}}>
+<CodeSurfer
+  title="expect(Hero).toBe(?)"
+  code={require('!raw-loader!./WhatsNext.txt')}
+  showNumbers={false}
+  dark={true}
+  lang="bash"
+  steps={[
+    { range: [1, 1]},
+    { range: [3, 3], notes: 'Never did this BTW'},
+    { range: [5, 5]},
+    { range: [7, 7]},
+    { range: [9, 9]},
   ]}
 />
 </div>
